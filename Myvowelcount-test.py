@@ -1,7 +1,3 @@
-import unittest
-from fizzbuzz.countvowels import vowel_count
-
-
 class Testcountvowels(unittest.TestCase):
     def test_countvowels(self):
         self.assertTupleEqual(vowel_count('hellothere'), ('eo', 4))
